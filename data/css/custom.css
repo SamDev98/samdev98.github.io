@@ -1,0 +1,86 @@
+body {
+  background-color: #393e46;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+section {
+  height: 100vh;
+}
+
+a:hover {
+  color: #00adb5;
+}
+
+hr {
+  color: #fff;
+}
+
+.navbar-custom {
+  background-color: #222831;
+}
+
+.profile-image {
+  border-radius: 80%;
+  width: 15rem;
+  height: 15rem;
+  margin-top: 25%;
+}
+
+.profile-icons {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+.home-data {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.text-links {
+  text-decoration: underline;
+}
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(50, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: limegreen;
+  }
+}

@@ -3,16 +3,20 @@ body {
   color: #fff;
 }
 
+section {
+  min-height: 100vh;
+}
+
 a {
   color: #fff;
 }
 
-section {
-  height: 100vh;
-}
-
 a:hover {
   color: #00adb5;
+}
+
+.text-links {
+  text-decoration: underline;
 }
 
 hr {
@@ -24,29 +28,76 @@ hr {
 }
 
 .profile-image {
-  border-radius: 80%;
+  border-radius: 90%;
   width: 15rem;
   height: 15rem;
-  margin-top: 25%;
 }
 
 .profile-icons {
   padding-top: 10%;
-  padding-left: 5%;
   padding-right: 5%;
 }
 
-.container {
+.profile-icons-div {
+  padding-left: 10%;
+  padding-right: 30%;
+}
+
+.home-left {
+  margin-left: 35%;
+}
+
+.home-right {
+  margin-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.home-container {
+  padding-top: 20%;
+}
+
+.other-container {
   padding-top: 10%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
-.home-data {
-  margin-left: 10%;
-  margin-top: 10%;
-}
+@media only screen and (max-width: 768px) {
+  .home-left {
+    margin-top: 20%;
+    margin-left: 10%;
+  }
 
-.text-links {
-  text-decoration: underline;
+  .home-right {
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .profile-icons-div {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .profile-image {
+    border-radius: 90%;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 15%;
+  }
+
+  .home-container {
+    padding-top: 5%;
+  }
+
+  .other-container {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .typewriter {
@@ -61,6 +112,27 @@ hr {
   animation:
     typing 3.5s steps(50, end),
     blink-caret .75s step-end infinite;
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  h1 {
+    font-size: 200%;
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
 }
 
 /* The typing effect */
@@ -81,6 +153,6 @@ hr {
   }
 
   50% {
-    border-color: limegreen;
+    border-color: white;
   }
 }

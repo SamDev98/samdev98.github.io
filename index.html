@@ -242,6 +242,12 @@
       $(".navbar-collapse").collapse('hide');
     });
   </script>
+  <script>
+    $('#mainNav a').click(function(e) {
+      $('#mainNav a').removeClass('active');
+      $(this).addClass('active');
+    });
+  </script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom" id="mainNav">
     <a class="navbar-brand" href="#">Sambhav</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -240,6 +240,12 @@
   <script>
     $('.navbar-collapse a').click(function() {
       $(".navbar-collapse").collapse('hide');
+    });
+  </script>
+  <script>
+    $('#mainNav a').click(function(e) {
+      $('#mainNav a').removeClass('active');
+      $(this).addClass('active');
     });
   </script>
 </body>

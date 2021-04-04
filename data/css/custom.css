@@ -28,8 +28,8 @@ hr {
 }
 
 .profile-image {
-  border-radius: 90%;
-  width: 15rem;
+  border-radius: 10%;
+  width: 19rem;
   height: 15rem;
 }
 
@@ -39,8 +39,8 @@ hr {
 }
 
 .profile-icons-div {
-  padding-left: 10%;
-  padding-right: 30%;
+  padding-left: 18%;
+  padding-right: 26%;
 }
 
 .home-left {
@@ -54,7 +54,7 @@ hr {
 }
 
 .home-container {
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .other-container {
@@ -83,10 +83,10 @@ hr {
   }
 
   .profile-image {
-    border-radius: 90%;
-    width: 10rem;
+    border-radius: 10%;
+    width: 12rem;
     height: 10rem;
-    margin-left: 15%;
+    margin-left: 10%;
   }
 
   .home-container {

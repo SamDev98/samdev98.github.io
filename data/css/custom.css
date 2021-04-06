@@ -29,8 +29,8 @@ hr {
 
 .profile-image {
   border-radius: 100%;
-  width: 16rem;
-  height: 13rem;
+  width: 17rem;
+  height: 16rem;
   padding-left: 5%;
   margin-left: 2%;
 }
@@ -50,13 +50,14 @@ hr {
 }
 
 .home-right {
+  margin-top: 5%;
   margin-right: 10%;
   padding-left: 20%;
   padding-right: 20%;
 }
 
 .home-container {
-  padding-top: 15%;
+  padding-top: 12%;
 }
 
 .other-container {

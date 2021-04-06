@@ -23,6 +23,11 @@ hr {
   color: #fff;
 }
 
+.copyright {
+  color: #ccc;
+  margin-bottom: 2%;
+}
+
 .navbar-custom {
   background-color: #222831;
 }

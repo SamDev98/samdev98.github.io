@@ -23,6 +23,10 @@ hr {
   color: #fff;
 }
 
+* {
+  cursor: url(../icons/cursor_icon.png), default !important;
+}
+
 .copyright {
   color: #ccc;
   margin-bottom: 2%;

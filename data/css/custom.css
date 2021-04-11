@@ -36,8 +36,8 @@ hr {
   border-radius: 100%;
   width: 13rem;
   height: 13rem;
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
 
 .profile-icons {
@@ -91,10 +91,11 @@ hr {
   }
 
   .profile-image {
-    border-radius: 40%;
+    border-radius: 100%;
     width: 10rem;
     height: 10rem;
-    margin-left: 2rem;
+    margin-bottom: 10%;
+    margin-left: 10%;
   }
 
   .home-container {

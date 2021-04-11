@@ -34,10 +34,10 @@ hr {
 
 .profile-image {
   border-radius: 100%;
-  width: 17rem;
-  height: 16rem;
-  padding-left: 5%;
-  margin-left: 2%;
+  width: 13rem;
+  height: 13rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .profile-icons {
@@ -51,8 +51,7 @@ hr {
 }
 
 .profile-icons-div {
-  padding-left: 20%;
-  padding-right: 25%;
+  margin-left: 1rem;
 }
 
 .home-left {
@@ -91,17 +90,11 @@ hr {
     padding-right: 0%;
   }
 
-  .profile-icons-div {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
   .profile-image {
-    border-radius: 100%;
+    border-radius: 40%;
     width: 10rem;
     height: 10rem;
-    margin-left: 17%;
-    padding-left: 0%;
+    margin-left: 2rem;
   }
 
   .home-container {

@@ -28,6 +28,16 @@ hr {
   margin-bottom: 2%;
 }
 
+.top-bar {
+  position: relative;
+}
+
+.progress-custom {
+  height: 5px;
+  z-index: 9999;
+  background-color: #222831;
+}
+
 .navbar-custom {
   background-color: #222831;
 }

@@ -17,32 +17,37 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom" id="mainNav">
-    <a class="navbar-brand" href="#">Sambhav</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-      <button class="btn btn-outline-light btn-sm" onClick="togglePlay()">Meditate</button>
+  <div class="top-bar">
+    <div class="progress progress-custom fixed-top">
+      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" id="progressbar" role="progressbar" style="width: 75%"></div>
     </div>
-  </nav>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom" id="mainNav">
+      <a class="navbar-brand" href="#">Sambhav</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-light btn-sm" onClick="togglePlay()">Meditate</button>
+      </div>
+    </nav>
+  </div>
   <section id="home">
     <div class="container-fluid home-container">
       <div class="row">
@@ -374,31 +379,11 @@
     <div class="footer-copyright text-center copyright"> Copyright (c) 2021 <a href="https://www.linkedin.com/in/sambhavrakhe" target="_blank" rel="noopener noreferrer">Sambhav Rakhe</a>. All Rights Reserved.
     </div>
   </footer>
-  <script>
-    var myAudio = document.getElementById("meditateAudio");
-    var isPlaying = false;
-
-    function togglePlay() {
-      isPlaying ? myAudio.pause() : myAudio.play();
-    };
-
-    myAudio.onplaying = function() {
-      isPlaying = true;
-    };
-    myAudio.onpause = function() {
-      isPlaying = false;
-    };
+  <script type="text/javascript" src="data/scripts/main.js" />
   </script>
-  <script>
-    $('.navbar-collapse a').click(function() {
-      $(".navbar-collapse").collapse('hide');
-    });
+  <script type="text/javascript" src="data/scripts/song.js" />
   </script>
-  <script>
-    $('#mainNav a').click(function(e) {
-      $('#mainNav a').removeClass('active');
-      $(this).addClass('active');
-    });
+  <script type="text/javascript" src="data/scripts/progress.js" />
   </script>
   <script type="text/javascript" src="data/scripts/typewriter.js" />
   </script>

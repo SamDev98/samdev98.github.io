@@ -14,8 +14,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="stylesheet" href="data/css/custom.css">
+  <link rel="stylesheet" href="data/css/dark.css">
   <link rel="stylesheet" href="data/css/timeline.css">
+  <link rel="stylesheet" id="theme" href="">
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -46,6 +47,8 @@
             <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
           </li>
         </ul>
+        <i class="far fa-sun theme-toggler" id="theme-toggler" onclick="darkModeToggler()"></i>
+        <span style="padding-left: 10px;"></span>
         <button class="btn btn-outline-light btn-sm" onClick="togglePlay()">Meditate</button>
       </div>
     </nav>
@@ -166,14 +169,14 @@
     </div>
   </section>
   <section id="skills">
-    <div class="container-fluid other-container">
+    <div class="container-fluid skills-container">
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12">
           <h1>Skills</h1>
           <br>
           <h3>Languages I've programmed with:</h3>
           <br>
-          <table class="table table-borderless">
+          <table class="table table-borderless table-sm">
             <tr>
               <td>
                 <i class="devicon devicon-python-plain"></i>
@@ -218,7 +221,7 @@
           <br>
           <h3>Other technologies I've worked with:</h3>
           <br>
-          <table class="table table-borderless">
+          <table class="table table-borderless table-sm">
             <tr>
               <td>
                 <i class="devicon devicon-html5-plain"></i>
@@ -261,7 +264,7 @@
       <br>
       <details>
         <summary>Click here to view my certifications</summary>
-        <table class="table">
+        <table class="table  table-borderless">
           <thead>
             <tr>
               <th scope="col">#</th>
@@ -291,7 +294,7 @@
         <div class="col-lg-12 col-sm-12 col-md-12">
           <h1>Projects</h1>
           <br>
-          <table class="table">
+          <table class="table  table-borderless">
             <thead>
               <tr>
                 <th scope="col">#</th>

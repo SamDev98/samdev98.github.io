@@ -16,7 +16,7 @@ a:hover {
 }
 
 hr {
-  color: #fff;
+  color: #393e46;
 }
 
 * {
@@ -54,6 +54,10 @@ hr {
   margin-left: 5%;
 }
 
+.theme-toggler {
+  color: #fff;
+}
+
 .profile-icons {
   padding-top: 10%;
   padding-right: 5%;
@@ -88,6 +92,12 @@ hr {
   padding-left: 15%;
   padding-right: 15%;
   line-height: 130%;
+}
+
+.skills-container {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 @media only screen and (max-width: 768px) {

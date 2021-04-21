@@ -23,6 +23,10 @@ hr {
   cursor: url(../icons/cursor_icon_v2.png), default !important;
 }
 
+.devicon {
+  padding-right: 5%;
+}
+
 .copyright {
   color: #ccc;
   margin-bottom: 2%;

@@ -3,11 +3,11 @@ var isPlaying = false;
 
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
-};
+}
 
-myAudio.onplaying = function() {
+myAudio.onplaying = function () {
   isPlaying = true;
 };
-myAudio.onpause = function() {
+myAudio.onpause = function () {
   isPlaying = false;
 };

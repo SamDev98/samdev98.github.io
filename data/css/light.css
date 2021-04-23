@@ -1,33 +1,75 @@
+* {
+  cursor: url(../icons/cursor_icon_v2_light.png), default !important;
+}
+
 body {
-  background-color: #ddd;
+  background-color: #f08a5d;
   color: #393e46;
 }
 
-* {
-  cursor: url(../icons/cursor_icon_v2_light.png), default !important;
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #00adb5;
+}
+
+hr {
+  color: #393e46;
+}
+
+.copyright {
+  color: #393e46;
+}
+
+.progress-custom {
+  background-color: #b83b5e;
+}
+
+.navbar-custom {
+  background-color: #b83b5e;
+}
+
+.theme-toggler {
+  color: #fff;
 }
 
 .profile-icons {
   color: #393e46;
 }
 
-a:hover {
-  color: #393e46;
-}
-
-.timeline-container::after {
-  background-color: #fff;
-  border: 4px solid #393e46;
+.profile-icons:hover {
+  color: #00adb5;
 }
 
 .timeline::after {
-  background-color: #393e46;
+  background-color: #6a2c70;
+}
+
+.timeline-container::after {
+  background-color: #b83b5e;
+  border: 4px solid #6a2c70;
+}
+
+.timeline-left::before {
+  border: medium solid #b83b5e;
+  border-color: transparent transparent transparent #b83b5e;
+}
+
+.timeline-right::before {
+  border: medium solid  #b83b5e;
+  border-color: transparent  #b83b5e transparent transparent;
 }
 
 .timeline-content {
-  background-color: #ddd;
+  background-color: #f08a5d;
+  border: 6px solid #b83b5e;
 }
 
-.copyright {
-  color: #393e46;
+@media screen and (max-width: 600px) {
+  .timeline-container::before {
+    border: medium solid #b83b5e;
+    border-color: transparent #b83b5e transparent transparent;
+  }
 }

@@ -56,7 +56,7 @@ hr {
 }
 
 .timeline-container::after {
-  background-color: #ffc93c;
+  background-color: #ff9a3c;
   border: 4px solid #155263;
 }
 
@@ -73,7 +73,7 @@ hr {
 }
 
 .timeline-content {
-  background-color: #ffc93c;
+  background-color: #ff9a3c;
   border: 6px solid #155263;
 }
 

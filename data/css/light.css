@@ -2,13 +2,21 @@
   cursor: url(../icons/cursor_icon_v2_light.png), default !important;
 }
 
+#home,
+#about,
+#skills,
+#projects,
+#contact {
+  background-image: linear-gradient(#ffc93c, #ff9a3c);
+}
+
 body {
-  background-color: #f08a5d;
   color: #393e46;
+  background-color: #ff9a3c;
 }
 
 a {
-  color: #fff;
+  color: #00adb5;
 }
 
 a:hover {
@@ -24,11 +32,11 @@ hr {
 }
 
 .progress-custom {
-  background-color: #b83b5e;
+  background-color: #155263;
 }
 
 .navbar-custom {
-  background-color: #b83b5e;
+  background-color: #155263;
 }
 
 .theme-toggler {
@@ -44,32 +52,35 @@ hr {
 }
 
 .timeline::after {
-  background-color: #6a2c70;
+  background-color: #155263;
 }
 
 .timeline-container::after {
-  background-color: #b83b5e;
-  border: 4px solid #6a2c70;
+  background-color: #ffc93c;
+  border: 4px solid #155263;
 }
 
 .timeline-left::before {
-  border: medium solid #b83b5e;
-  border-color: transparent transparent transparent #b83b5e;
+  border: medium solid #155263;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #155263;
 }
 
 .timeline-right::before {
-  border: medium solid  #b83b5e;
-  border-color: transparent  #b83b5e transparent transparent;
+  border: medium solid #155263;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #155263 transparent transparent;
 }
 
 .timeline-content {
-  background-color: #f08a5d;
-  border: 6px solid #b83b5e;
+  background-color: #ffc93c;
+  border: 6px solid #155263;
 }
 
 @media screen and (max-width: 600px) {
   .timeline-container::before {
-    border: medium solid #b83b5e;
-    border-color: transparent #b83b5e transparent transparent;
+    border: medium solid #155263;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #155263 transparent transparent;
   }
 }

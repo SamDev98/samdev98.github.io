@@ -82,6 +82,12 @@
   border-radius: 10px;
 }
 
+.timeline-title {
+  text-align: center;
+  font-size: 130%;
+  line-height: normal;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 

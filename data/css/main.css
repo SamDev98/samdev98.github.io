@@ -1,0 +1,138 @@
+section {
+  min-height: 100vh;
+}
+
+.devicon {
+  padding-right: 5%;
+}
+
+.copyright {
+  margin-bottom: 2%;
+}
+
+.top-bar {
+  position: relative;
+}
+
+.progress-custom {
+  height: 5px;
+  z-index: 9999;
+}
+
+.profile-image {
+  border-radius: 100%;
+  width: 13rem;
+  height: 13rem;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+.profile-icons {
+  padding-top: 10%;
+  padding-right: 5%;
+}
+
+.profile-icons-div {
+  margin-left: 1rem;
+}
+
+.home-left {
+  margin-left: 35%;
+}
+
+.home-right {
+  margin-top: 5%;
+  margin-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.home-container {
+  padding-top: 12%;
+}
+
+.other-container {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 130%;
+}
+
+.skills-container {
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-left {
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+
+  .home-right {
+    padding-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .profile-image {
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 10%;
+    margin-left: 10%;
+  }
+
+  .home-container {
+    padding-top: 5%;
+  }
+
+  .other-container {
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.about-me {
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me {
+    margin-top: 25%;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .about-me {
+    margin-top: 20%;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  h1 {
+    font-size: 200%;
+    text-decoration: underline;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+}

@@ -1,42 +1,24 @@
 * {
-  cursor: url(../icons/cursor_icon_v2_light.png), default !important;
-}
-
-#home,
-#about,
-#skills,
-#projects,
-#contact {
-  background-image: linear-gradient(#ffc93c, #ff9a3c);
+  cursor: url(../icons/cursor_icon_v2_light.png), default;
 }
 
 body {
-  color: #393e46;
-  background-color: #ff9a3c;
+  color: #000000;
+  background-color: #eeeeee;
 }
 
-a {
-  color: #00adb5;
-}
-
+a,
 a:hover {
   color: #00adb5;
-}
-
-hr {
-  color: #393e46;
 }
 
 .copyright {
   color: #393e46;
 }
 
-.progress-custom {
-  background-color: #155263;
-}
-
+.progress-custom,
 .navbar-custom {
-  background-color: #155263;
+  background-color: #393e46;
 }
 
 .theme-toggler {
@@ -52,35 +34,35 @@ hr {
 }
 
 .timeline::after {
-  background-color: #155263;
+  background-color: #393e46;
 }
 
 .timeline-container::after {
-  background-color: #ff9a3c;
-  border: 4px solid #155263;
+  background-color: #eeeeee;
+  border: 4px solid #393e46;
 }
 
 .timeline-left::before {
-  border: medium solid #155263;
+  border: medium solid #393e46;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #155263;
+  border-color: transparent transparent transparent #393e46;
 }
 
 .timeline-right::before {
-  border: medium solid #155263;
+  border: medium solid #393e46;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #155263 transparent transparent;
+  border-color: transparent #393e46 transparent transparent;
 }
 
 .timeline-content {
-  background-color: #ff9a3c;
-  border: 6px solid #155263;
+  background-color: #eeeeee;
+  border: 6px solid #393e46;
 }
 
 @media screen and (max-width: 600px) {
   .timeline-container::before {
-    border: medium solid #155263;
+    border: medium solid #393e46;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #155263 transparent transparent;
+    border-color: transparent #393e46 transparent transparent;
   }
 }

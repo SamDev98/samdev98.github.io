@@ -18,7 +18,7 @@ TxtType.prototype.tick = function () {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+  this.el.innerHTML = 'I am <span class="wrap" style="text-decoration: underline;">' + this.txt + "</span>";
 
   var that = this;
   var delta = 100 - Math.random() * 100;

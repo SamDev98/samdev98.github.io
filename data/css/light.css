@@ -9,7 +9,8 @@ body {
 
 a,
 a:hover {
-  color: #00adb5;
+  color: #009714;
+  font-weight: bold;
 }
 
 .copyright {

@@ -2,7 +2,13 @@ var myAudio = document.getElementById("meditateAudio");
 var isPlaying = false;
 
 function togglePlay() {
-  isPlaying ? myAudio.pause() : myAudio.play();
+  if(isPlaying) {
+    document.getElementById("meditate-btn").innerHTML="Meditate";
+    myAudio.pause();
+  } else {
+    document.getElementById("meditate-btn").innerHTML="Pause";
+    myAudio.play();
+  }
 }
 
 myAudio.onplaying = function () {

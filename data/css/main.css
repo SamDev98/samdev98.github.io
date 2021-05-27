@@ -11,7 +11,8 @@ p {
   text-align: justify;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -30,7 +31,7 @@ summary:hover {
 }
 
 #main-btns form {
-    display: inline;
+  display: inline;
 }
 
 .devicon {

@@ -2,11 +2,12 @@ var myAudio = document.getElementById("meditateAudio");
 var isPlaying = false;
 
 function togglePlay() {
-  if(isPlaying) {
-    document.getElementById("meditate-btn").innerHTML="Meditate";
+  window.navigator.vibrate(100);
+  if (isPlaying) {
+    document.getElementById("meditate-btn").innerHTML = "Meditate";
     myAudio.pause();
   } else {
-    document.getElementById("meditate-btn").innerHTML="Pause";
+    document.getElementById("meditate-btn").innerHTML = "Pause";
     myAudio.play();
   }
 }

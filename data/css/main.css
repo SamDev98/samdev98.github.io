@@ -135,6 +135,17 @@ summary:hover {
   }
 }
 
+.skillsIcons img {
+  padding-right: 10%;
+  filter: grayscale(1) invert(100%);
+}
+
+.skillsIcons {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
 .about-me {
   padding-top: 5%;
 }

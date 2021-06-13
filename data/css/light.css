@@ -13,6 +13,11 @@ a:hover {
   font-weight: bold;
 }
 
+figure img {
+  padding-top: 10%;
+  filter: grayscale(100%) invert(0%);
+}
+
 .copyright {
   color: #393e46;
 }

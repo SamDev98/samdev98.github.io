@@ -51,6 +51,38 @@ figure img {
   }
 }
 
+.projectTitle {
+  font-weight: bolder;
+}
+
+.projectsTable tr.collapse.in {
+  display: table-row;
+}
+
+.projectsTable p {
+  margin-left: 25%;
+  max-width: 50%;
+  text-align: center;
+}
+
+.projectsTable img {
+  margin-left: 40%;
+  width: 256px;
+  height: 256px;
+  margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectsTable p {
+    max-width: 100%;
+  }
+
+  .projectsTable img {
+    width: 128px;
+    height: 128px;
+  }
+}
+
 #main-btns {
   padding-top: 50px;
   margin-left: 8%;

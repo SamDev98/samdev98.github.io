@@ -383,7 +383,11 @@
         <div class="col-lg-12 col-sm-12 col-md-12">
           <h1>Projects</h1>
           <br>
-          <table class="table  table-borderless">
+          <p>
+            Click on a project name to get more details.
+          </p>
+          <br>
+          <table class="table  table-borderless projectsTable">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -392,29 +396,77 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr data-toggle="collapse" data-target=".project1">
                 <th scope="row">1</th>
-                <td>Intrusion Detection System</td>
+                <td class="projectTitle">Intrusion Detection System</td>
                 <td><a href="http://ijirt.org/Article?manuscript=149783" target="_blank"
                     rel="noopener noreferrer">Paper</a></td>
               </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Password Manager Python</td>
-                <td><a href="https://github.com/SamDev98/password-manager-py" target="_blank"
-                    rel="noopener noreferrer">GitHub</a></td>
+              <tr class="collapse project1">
+                <td></td>
+                <td>
+                  <p>
+                    In this paper, we tackled the issue of detecting collaborative attacks. In the real world, it is
+                    unsual to find a single attack being issued on a system at a time. Normally, it'd be a collection of
+                    multiple attacks or a combination of 2 or more (collaborative) attacks. We used Machine Learning
+                    models to be able to effectively detect collaborative attacks as these usually form a new form of
+                    attack on their own (unlike multiple-type attacks that can be detected individually).
+                  </p>
+                </td>
+                <td></td>
               </tr>
-              <tr>
+              <tr data-toggle="collapse" data-target=".project2">
+                <th scope="row">2</th>
+                <td class="projectTitle">Password Manager Python</td>
+                <td><a href="https://github.com/SamDev98/password-manager-py" target="_blank"
+                    rel="noopener noreferrer">GitHub</a>
+                  <span style="padding-inline: 10%;"></span>
+                  <a href="https://github.com/SamDev98/password-manager-py/blob/main/docs/demo.md" target="_blank"
+                    rel="noopener noreferrer">Demo</a> </td>
+              </tr>
+              <tr class="collapse project2">
+                <td></td>
+                <td>
+                  <img src="data/images/projects/PassManagerPy_round.png" alt="">
+                  <p>
+                    An extensive password manager built using Python. Current implementations include a GUI based
+                    encrypted password manager and a TUI based NoSQL password manager.
+                  </p>
+                </td>
+                <td></td>
+              </tr>
+              <tr data-toggle="collapse" data-target=".project3">
                 <th scope="row">3</th>
-                <td>Python Bots</td>
+                <td class="projectTitle">Python Bots</td>
                 <td><a href="https://github.com/SamDev98/py-bots" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </td>
               </tr>
-              <tr>
+              <tr class="collapse project3">
+                <td></td>
+                <td>
+                  <img src="data/images/projects/python_bots.png" alt="">
+                  <p>
+                    All the bots I have scripted in python to automate some of the complex tasks.
+                  </p>
+                </td>
+                <td></td>
+              </tr>
+              <tr data-toggle="collapse" data-target=".project4">
                 <th scope="row">4</th>
-                <td>Python Movie Data Scraper</td>
+                <td class="projectTitle">Python Movie Data Scraper</td>
                 <td><a href="https://github.com/SamDev98/movie-data-scraper" target="_blank"
                     rel="noopener noreferrer">GitHub</a></td>
+              </tr>
+              <tr class="collapse project4">
+                <td></td>
+                <td>
+                  <img src="data/images/projects/python_scraper.png" alt="">
+                  <p>
+                    A movie data scraper written in Python. Uses imdb website to srape data on movies and store in a
+                    NoSQL db store.
+                  </p>
+                </td>
+                <td></td>
               </tr>
             </tbody>
           </table>

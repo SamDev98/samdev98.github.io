@@ -1,0 +1,29 @@
+@keyframes flow {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.animateMe {
+    animation: flow 10s ease-in-out infinite;
+}
+
+.slower {
+    animation: flow 30s ease-in-out infinite;
+}
+
+.india {
+    background: linear-gradient(-60deg, green, green, white, orange, orange);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
